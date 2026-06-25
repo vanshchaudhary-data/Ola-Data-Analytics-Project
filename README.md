@@ -18,10 +18,15 @@ It exists to help operations and product teams quickly identify performance tren
 The dashboard was built using the following tools and technologies:
 
 • 📊 Power BI Desktop – Main data visualization platform used to design interactive reports and publish the .pbix file.
+
 • 📂 Power Query (Power BI / Excel) – ETL layer for data extraction, transformation, and loading; used to clean, merge, and shape raw booking and telemetry data.
+
 • 🧠 DAX (Data Analysis Expressions) – Calculated measures, time‑intelligence metrics, and dynamic KPIs (e.g., cancellation rate, success rate, rolling averages).
+
 • 🗄️ SQL (Postgres / MySQL / SQL Server) – Source queries and stored procedures for aggregating booking, payment, distance, and rating data; used for data pulls and pre‑aggregation.
+
 • 📈 Excel (Power Query, PivotTables) – Ad‑hoc analysis, validation, and intermediate data staging; exports and sample datasets saved as .xlsx/.csv.
+
 • 📝 Data Modeling & File Formats – Star/schema relationships between fact_bookings and dimension tables (vehicle_type, customer, driver, payment_method); deliverables: .pbix, .sql scripts, .xlsx, and .csv for snapshots.
 
 ### 4.	Data Source
